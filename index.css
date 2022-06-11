@@ -1,0 +1,98 @@
+.couleurs { 
+    background-color: black; 
+    color: white;
+}
+
+
+.container-fluid{
+    background-color: darkred;
+    color: white;
+    font-family: 'Bangers', cursive;
+    background: linear-gradient(#000000, #b70b08);
+}
+
+.navbar{
+    padding: 0;
+}
+
+
+
+/* .col3{
+    background-size: 100vw 120vh;
+
+} */
+
+h1 {
+    color: white;
+justify-content : center;
+align-items: center;
+font-size: 5.5em;
+}
+
+.button-hero{
+    width: 15vw;
+}
+
+.hero{
+    height:80vh;
+    background-image: url("./assets/images/salle-cinema.jpeg");
+    background-size: 100vw 120vh;
+    color: white;
+     font-family: 'Bangers', cursive;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+ } 
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card-title{
+    min-height: 15vh;   
+    align-items: center;
+}
+
+.card2 {
+    width:30vh;
+    min-height: 65vh; 
+    margin: 2vh;
+    border: 2px red inset;
+}
+  
+.card2 img{
+    max-height: 40vh;
+    min-height: 40vh;  
+}
+
+footer {
+    background: linear-gradient(#000000, #b70b08);
+    display:flex;
+    justify-content: space-around;
+}
+
+.reseaux h4{
+    margin-bottom: 50px;
+margin-top: 20px;
+}
+
+.reseaux img{
+    width: 50px;
+}
+
+.footer-link{
+    display:flex;
+    flex-direction: column;
+    color: white;
+}
+
+.footer-link h4{
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+a {
+    color: black;
+}
